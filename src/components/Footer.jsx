@@ -20,7 +20,6 @@ export default function Footer() {
           <h3 className="mb-4 font-serif text-lg font-bold text-white">Quick Links</h3>
           <ul className="space-y-2 text-sm">
             {NAV.map((n) => (<li key={n.to}><Link to={n.to} className="hover:text-brand-amber">{n.label}</Link></li>))}
-            <li><Link to="/donate" className="hover:text-brand-amber">Donate</Link></li>
             <li><Link to="/registration" className="hover:text-brand-amber">Registration Information</Link></li>
           </ul>
         </div>
@@ -38,7 +37,6 @@ export default function Footer() {
             <li className="flex gap-2"><ShieldCheck size={16} className="mt-0.5 shrink-0 text-brand-amber" /><span>IRS 501(c)(3) public charity, tax-exempt since {ORG.taxExemptSince}</span></li>
             <li><span className="font-semibold text-white">EIN:</span> {ORG.ein}</li>
             <li><span className="font-semibold text-white">Incorporated:</span> {ORG.incorporatedState}</li>
-            <li><span className="font-semibold text-white">All donations are tax-deductible</span> to the extent allowed by law.</li>
             <li className="flex gap-2"><MapPin size={16} className="mt-0.5 shrink-0 text-brand-amber" /><span>Registered address: {ORG.street}, {ORG.city}, {ORG.state} {ORG.zip}</span></li>
           </ul>
         </div>
