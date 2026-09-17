@@ -33,7 +33,6 @@ export default function Header() {
                 {n.label}
               </NavLink>
             ))}
-            <Link to="/donate" className="btn-accent ml-2 !px-4 !py-2 text-sm">Donate</Link>
           </div>
           <button className="lg:hidden" onClick={() => setOpen(!open)} aria-label="Toggle menu">
             {open ? <X size={28} className="text-brand-teal" /> : <Menu size={28} className="text-brand-teal" />}
@@ -47,7 +46,6 @@ export default function Header() {
                 {n.label}
               </NavLink>
             ))}
-            <Link to="/donate" onClick={() => setOpen(false)} className="btn-accent mt-2 w-full justify-center text-sm">Donate</Link>
           </div>
         )}
       </nav>
