@@ -7,7 +7,6 @@ import Programs from './pages/Programs.jsx'
 import Impact from './pages/Impact.jsx'
 import Team from './pages/Team.jsx'
 import Contact from './pages/Contact.jsx'
-import Donate from './pages/Donate.jsx'
 import Gallery from './pages/Gallery.jsx'
 import News from './pages/News.jsx'
 import RegistrationInformation from './pages/RegistrationInformation.jsx'
@@ -26,7 +25,6 @@ export default function App() {
         <Route path="impact" element={<Impact />} />
         <Route path="team" element={<Team />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="donate" element={<Donate />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="news" element={<News />} />
         <Route path="registration" element={<RegistrationInformation />} />
