@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ShieldCheck, HeartHandshake, ArrowRight } from 'lucide-react'
+import { ShieldCheck, ArrowRight } from 'lucide-react'
 import { ORG } from '../data/org.js'
 
 export default function Hero() {
@@ -17,7 +17,6 @@ export default function Hero() {
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-brand-tealLight">{ORG.missionLong}</p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link to="/donate" className="btn-accent"><HeartHandshake size={18} /> Donate Today</Link>
             <Link to="/programs" className="inline-flex items-center gap-2 rounded-lg border-2 border-white/60 px-5 py-3 font-semibold text-white transition hover:bg-white/10">
               Our Programs <ArrowRight size={18} />
             </Link>
