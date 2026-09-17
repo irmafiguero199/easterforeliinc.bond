@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Facebook, ShieldCheck } from 'lucide-react'
+import { Mail, Phone, MapPin, ShieldCheck } from 'lucide-react'
 import { ORG, NAV } from '../data/org.js'
 
 export default function Footer() {
@@ -12,9 +12,6 @@ export default function Footer() {
             <span className="font-serif text-lg font-bold text-white">{ORG.name}</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed">{ORG.missionShort}</p>
-          <a href={ORG.facebook} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 text-sm text-brand-amber hover:text-white">
-            <Facebook size={18} /> facebook.com/easterforeli
-          </a>
         </div>
         <div>
           <h3 className="mb-4 font-serif text-lg font-bold text-white">Quick Links</h3>
