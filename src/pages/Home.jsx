@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Egg, Gift, Users, HandHeart } from 'lucide-react'
+import { ArrowRight, Egg, Gift, Users } from 'lucide-react'
 import PageMeta from '../components/PageMeta.jsx'
 import Hero from '../components/Hero.jsx'
 import SectionHeader from '../components/SectionHeader.jsx'
@@ -44,18 +44,6 @@ export default function Home() {
           <div className="mt-10 text-center">
             <Link to="/programs" className="btn-primary">Explore all programs <ArrowRight size={18} /></Link>
           </div>
-        </div>
-      </section>
-      <section className="mx-auto max-w-7xl px-4 py-20">
-        <div className="card flex flex-col items-center gap-6 !bg-brand-tealLight md:flex-row md:justify-between">
-          <div className="flex items-start gap-4">
-            <HandHeart size={40} className="shrink-0 text-brand-teal" />
-            <div>
-              <h3 className="font-serif text-2xl font-bold text-brand-tealDark">Your gift delivers joy — and it’s tax-deductible</h3>
-              <p className="mt-2 text-gray-700">{ORG.name} is a registered 501(c)(3) nonprofit (EIN {ORG.ein}). Every dollar goes toward baskets, cinch bags and family gift cards.</p>
-            </div>
-          </div>
-          <Link to="/donate" className="btn-accent shrink-0">Donate Now</Link>
         </div>
       </section>
       <Newsletter />
