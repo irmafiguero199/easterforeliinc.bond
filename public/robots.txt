@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.easterforeliinc.bond/sitemap.xml

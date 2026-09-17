@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-brand-cream text-brand-ink font-sans antialiased; }
+
+.btn-primary { @apply inline-flex items-center gap-2 rounded-lg bg-brand-teal px-5 py-3 font-semibold text-white shadow-md transition hover:bg-brand-tealDark; }
+.btn-accent { @apply inline-flex items-center gap-2 rounded-lg bg-brand-amber px-5 py-3 font-semibold text-brand-ink shadow-md transition hover:bg-brand-amberDark hover:text-white; }
+.card { @apply rounded-2xl border border-brand-teal/10 bg-white p-6 shadow-sm; }
+.legal h3 { @apply mt-8 mb-3 text-xl font-bold text-brand-tealDark; }
+.legal p, .legal li { @apply mb-3 leading-relaxed text-gray-700; }
+.legal ul { @apply list-disc pl-6; }

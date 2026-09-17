@@ -1,0 +1,12 @@
+{
+  "name": "Easter For Eli Inc",
+  "short_name": "Easter For Eli",
+  "description": "501(c)(3) nonprofit delivering Easter joy to children battling cancer. EIN 82-4802188.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFDF6",
+  "theme_color": "#0E6B5C",
+  "icons": [
+    { "src": "/images/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
